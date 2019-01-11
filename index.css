@@ -1,0 +1,107 @@
+#wrapper { 
+width: 100%;
+height: auto; 
+margin: 0 auto;
+display: -moz-inline-stack;
+display: inline-block;
+box-sizing: border-box;
+vertical-align: middle;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 350%;
+}
+p {
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 1%;
+}
+a {
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+}
+.siteInfo {
+    position: absolute;
+    left: 20%;
+    width: 60%;
+}
+.introText {
+    text-align: justify;
+}
+#homepage {
+    left: 48%;
+}
+h2 {
+    color: black;
+    font-size: 150%;
+}
+.timesTables {
+   position: absolute;
+   text-align: center; 
+}
+.topRow {
+    top: 30%;
+}
+.secondRow {
+    top: 70%;
+}
+.thirdRow {
+    top: 110%;
+}
+.bottomRow {
+    top: 150%;
+}
+.leftRow {
+    left: 18%;
+}
+.middleRow {
+    left: 45%;
+}
+.rightRow {
+    left: 72%;
+}
+#oneTimesTable {
+    color: red;
+}
+#twoTimesTable {
+    color: skyblue;
+}
+#threeTimesTable {
+    color: lightgreen;
+}
+#fourTimesTable {
+    color: purple;
+}
+#fiveTimesTable {
+    color: yellow;
+}
+#sixTimesTable {
+    color: black;
+}
+#sevenTimesTable {
+    color: orange;
+}
+#eightTimesTable {
+    color: darkblue;
+}
+#nineTimesTable {
+    color: darkgreen;
+}
+#tenTimesTable {
+    color: #cc9900;
+}
+#elevenTimesTable {
+    color: silver;
+}
+#twelveTimesTable {
+    color: gold;
+}
+#returnLink {
+    top: 190%;
+    left: 48%;
+    padding-bottom: 2%;
+}

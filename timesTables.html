@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>One Times Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="mediaQueriesHorizontal.css">
+        <link rel="stylesheet" href="mediaQueriesVertical.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Times Tables</h1>
+            <p>Please select the following links to view your selected times table. <strong>Remember</strong> only select if you get stuck or if to check you have guessed correctly</p>
+            <a id="homepage" href="index.html">Homepage</a>
+            <div id="timesTables">
+                <div class="timesTables topRow leftRow" id="oneTimesTable">
+                    <h2>One Times Table</h2>
+                    <button type="button" onclick="oneTimesTable()">Click Me</button>
+                    <div id="outputDivOne"></div>
+                </div>
+                <div class="timesTables topRow middleRow" id="twoTimesTable">
+                    <h2>Two Times Table</h2>
+                    <button type="button" onclick="twoTimesTable()">Click Me</button>
+                    <div id="outputDivTwo"></div> 
+                </div>
+                <div class="timesTables topRow rightRow" id="threeTimesTable">
+                    <h2>Three Times Table</h2>
+                    <button type="button" onclick="threeTimesTable()">Click Me</button>
+                    <div id="outputDivThree"></div>
+                </div>
+                <div class="timesTables secondRow leftRow" id="fourTimesTable">
+                    <h2>Four Times Table</h2>
+                    <button type="button" onclick="fourTimesTable()">Click Me</button>
+                    <div id="outputDivFour"></div>
+                </div>
+                <div class="timesTables secondRow middleRow" id="fiveTimesTable">
+                    <h2>Five Times Table</h2>
+                    <button type="button" onclick="fiveTimesTable()">Click Me</button>
+                    <div id="outputDivFive"></div>
+                </div>
+                <div class="timesTables secondRow rightRow" id="sixTimesTable">
+                    <h2>Six Times Table</h2>
+                    <button type="button" onclick="sixTimesTable()">Click Me</button>
+                    <div id="outputDivSix"></div>
+                </div>
+                <div class="timesTables thirdRow leftRow" id="sevenTimesTable">
+                    <h2>Seven Times Table</h2>
+                    <button type="button" onclick="sevenTimesTable()">Click Me</button>
+                    <div id="outputDivSeven"></div>
+                </div>
+                <div class="timesTables thirdRow middleRow" id="eightTimesTable">
+                    <h2>Eight Times Table</h2>
+                    <button type="button" onclick="eightTimesTable()">Click Me</button>
+                    <div id="outputDivEight"></div>
+                </div>
+                <div class="timesTables thirdRow rightRow" id="nineTimesTable">
+                    <h2>Nine Times Table</h2>
+                    <button type="button" onclick="nineTimesTable()">Click Me</button>
+                    <div id="outputDivNine"></div>
+                </div>
+                <div class="timesTables bottomRow leftRow" id="tenTimesTable">
+                    <h2>Ten Times Table</h2>
+                    <button type="button" onclick="tenTimesTable()">Click Me</button>
+                    <div id="outputDivTen"></div>
+                </div>
+                <div class="timesTables bottomRow middleRow" id="elevenTimesTable">
+                    <h2>Eleven Times Table</h2>
+                    <button type="button" onclick="elevenTimesTable()">Click Me</button>
+                    <div id="outputDivEleven"></div>
+                </div>
+                <div class="timesTables bottomRow rightRow" id="twelveTimesTable">
+                    <h2>Twelve Times Table</h2>
+                    <button type="button" onclick="twelveTimesTable()">Click Me</button>
+                    <div id="outputDivTwelve"></div>
+                </div>
+                <br>
+                <a id="returnLink" href="#wrapper">Return to top</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script> 
+    </body>
+    
+</html>

@@ -1,0 +1,193 @@
+@media only screen and (orientation: landscape) and (max-width: 1680px) {
+#homepage {
+    left: 48.4%;  
+} 
+}
+@media only screen and (orientation: landscape) and (max-width: 1600px) {
+#homepage {
+    left: 47.5%;  
+}
+.secondRow {
+    top: 75%;
+}
+.thirdRow {
+    top: 120%;
+}
+.bottomRow {
+    top: 165%;
+}
+.leftRow {
+    left: 17%;
+}
+.middleRow {
+    left: 44%;
+}
+.rightRow {
+    left: 71%;
+}
+#returnLink {
+    top: 212%;
+    left: 47.6%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 1440px) {
+#homepage {
+    left: 46.8%;  
+}
+.leftRow {
+    left: 16%;
+}
+.middleRow {
+    left: 43%;
+}
+.rightRow {
+    left: 70%;
+}
+#returnLink {
+    left: 47.1%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 1366px) {
+h1 {
+    font-size: 300%;
+}
+
+p {
+    font-size: 100%;
+}
+ul {
+    font-size: 100%;
+}
+.topRow {
+    top: 40%;
+}
+.secondRow {
+    top: 95%;
+}
+.thirdRow {
+    top: 150%;
+}
+.bottomRow {
+    top: 205%;
+}
+#returnLink {
+    top: 262%;
+    left: 47.3%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 1280px) {
+.leftRow {
+    left: 15%;
+}
+.middleRow {
+    left: 42%;
+}
+.rightRow {
+    left: 69%;
+}
+#returnLink {
+left: 47.6%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 1152px) {
+p {
+    font-size: 90%;
+}
+.topRow {
+    top: 28%;
+}
+.secondRow {
+    top: 80%;
+}
+.thirdRow {
+    top: 132%;
+}
+.bottomRow {
+    top: 184%;
+}
+.leftRow {
+    left: 14%;
+}
+.middleRow {
+    left: 41%;
+}
+.rightRow {
+    left: 68%;
+}
+#returnLink {
+    top: 238%;
+    left: 46.2%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+#homepage {
+    left: 46.1%;    
+}
+h1 {
+    font-size: 250%;
+}
+p {
+    font-size: 80%;
+}
+h2 {
+    font-size: 100%;
+}
+.leftRow {
+    left: 17%;
+}
+.middleRow {
+    left: 44%;
+}
+.rightRow {
+    left: 71%;
+}
+.topRow {
+    top: 30%;
+}
+.secondRow {
+    top: 84%;
+}
+.thirdRow {
+    top: 138%;
+}
+.bottomRow {
+    top: 192%;
+}
+#returnLink {
+    top: 248%;
+    left: 46.2%;
+}
+}
+@media only screen and (orientation: landscape) and (max-width: 800px) {
+h1 {
+    font-size: 200%;
+}
+p {
+    font-size: 70%;
+}
+ul {
+    font-size: 70%;
+}
+#homepage {
+    left: 45.5%;    
+}
+h2 {
+    font-size: 80%;
+}
+.topRow {
+    top: 35%;
+}
+.secondRow {
+    top: 100%;
+}
+.thirdRow {
+    top: 165%;
+}
+.bottomRow {
+    top: 230%;
+}
+#returnLink {
+    top: 298%;
+    left: 44.9%;
+}
+}
